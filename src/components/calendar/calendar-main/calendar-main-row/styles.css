@@ -1,0 +1,8 @@
+.calendar-main__row {
+    border-bottom: 1px dashed #000;
+}
+
+.calendar--mode-list .calendar-main__row {
+    display: block;
+    border-bottom: 4px solid #000;
+}

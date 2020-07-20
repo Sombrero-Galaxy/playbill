@@ -1,0 +1,8 @@
+.calendar__head-row {
+    border-bottom: 4px solid #000;
+}
+
+.calendar--mode-list .calendar__head-row {
+    display: flex;
+    justify-content: center;
+}

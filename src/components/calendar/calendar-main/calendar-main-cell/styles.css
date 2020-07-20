@@ -1,0 +1,15 @@
+.calendar-main__cell {
+    width: calc(100% / 7);
+    padding: 16px 0;
+    vertical-align: top;
+}
+
+.calendar--mode-list .calendar-main__cell {
+    display: block;
+    width: 100%;
+}
+
+.calendar-main__cell-day {
+    display: block;
+    margin-bottom: 16px;
+}

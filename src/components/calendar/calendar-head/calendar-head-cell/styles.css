@@ -1,0 +1,15 @@
+.calendar__head-cell {
+    width: calc(100% / 7);
+    padding: 8px 0;
+    text-transform: uppercase;
+    text-align: left;
+}
+
+.calendar--mode-list .calendar__head-cell {
+    width: auto;
+    margin-right: 16px;
+}
+
+.calendar--mode-list .calendar__head-cell:last-child {
+    margin-right: 0;
+}

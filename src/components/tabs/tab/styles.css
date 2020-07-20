@@ -1,0 +1,20 @@
+.tab {
+    padding: 0;
+    border: none;
+    background: linear-gradient(90deg, tomato, tomato) left bottom / 0 2px no-repeat;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 1.3;
+    text-transform: uppercase;
+    cursor: pointer;
+    transition: background-size .25s;
+}
+
+.tab:focus {
+    outline: none;
+}
+
+.tab--active {
+    color: tomato;
+    background-size: 100% 2px;
+}

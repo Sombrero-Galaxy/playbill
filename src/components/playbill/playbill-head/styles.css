@@ -1,0 +1,21 @@
+.playbill__head {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 64px;
+}
+
+.playbill__head h1 {
+    width: 100%;
+    margin-right: auto;
+    text-align: center;
+}
+
+.playbill__head-tabs-list {
+    margin-right: 48px;
+}
+
+.playbill__head-tabs-list:last-child {
+    margin-right: 0;
+}
